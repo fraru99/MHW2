@@ -1,0 +1,140 @@
+body {
+    font-size: 18px;
+    margin: 0;
+  }
+
+article {
+    margin: auto;
+    width: 700px;
+  }
+
+header nav{
+    position: absolute;
+    display: flex;
+    background-color: burlywood;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    background-size: cover;
+}
+
+#links{
+    margin-left: 55%;
+}
+
+header #logo{
+    font-size: 1.7em;
+}
+
+#treni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
+#treni div {
+    width: 40%;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: black;
+  }
+
+  a.button{
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: burlywood;
+    width: 40px;
+  }
+  
+  a.button:hover {
+    background-color: burlywood;
+    color: black;
+  }
+
+  .star{
+    cursor: pointer;
+    width: 30px;
+  }
+
+  .hidden{
+      display: none !important;
+  }
+
+  #preferiti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30%;
+    background-color: lightgray;
+  }
+
+  #preferiti div {
+    width: 40%;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  footer address{
+    font-size: 2em;
+  }
+  
+  footer p{
+    font-size: 1.7em;
+  }
+
+  @media (max-width: 500px) {
+    #links{
+      display: none;
+  
+    }
+
+    #menu div{
+        width: 25px;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px 0;
+    
+    }
+
+    header h1{
+        font-size: 1em;
+        margin-top: 15%;
+    }
+
+    header nav{
+        margin-right: -42%;
+
+    }
+
+
+
+}
